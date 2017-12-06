@@ -1,0 +1,9 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: ivz4VF9JdGNFSRACMx/QYxjDK8iRlEqIHg/zD2qkQ1GQvi3gcx9ZGrS7D2UgctE9bMSn/JJwzdi/bURv+jmJm2Jv306DICialBE4pES8qpUiq6YL9U1rLjOi7tL05IutijZ15ltJriEU+vXiSvslhvNdFyJo08hpsV8G8PFY5UFbomSJiLoi9cdJrLxqYPyFBT6uikTdZw6AabxZ8/4BPwkCpjWLY8uaSEAcNmJKsfBxWQuZgaixIqRbUcLs6LjbprgNWaglSWFMxwWzTfeclrgkjjCjCYHH2AjN4rBtf0bLeqXAsPYCTvESbbxM3j/47SI/HNzLXng4Z291117ut79SAfAYtG9PNZLw/hGheCzXqaTL0tPrOSwbKXiTMP7xCthESaEIMd70/FsqRkm7iTSIzLpoqybgaoXJsC7mQeKpNT1IZcTiUkgCjSuIWVyGQH27Upoguuu5sXZ+/QO0GtqiU98Z/qsuDZurUd3UwHYvPQj2dnxA7UxvxJYK5eTK7XfhiSsLZwCvteu0mVWhFerRIPNOs8yo4mXNd3gnOExbEq9btG9ko2PnfaNgP7NHJuayUCTnu/trhoJueAh89k8sYCq2hWqCvOhcWoGG/kw3dS6+SUvvnSKz2/gj6UaR+kAZ9sxn+p+nfNcBLwxwlM/TsLQX5o9No2LTue4VtDA=
+  app: lb-mvp-toolkit
+  on:
+    repo: vlad-ovsyannikov/lb-mvp-toolkit
