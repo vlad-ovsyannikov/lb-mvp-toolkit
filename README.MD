@@ -1,3 +1,5 @@
-lb-mvp-toolkit api server
+### LoopBack api server for MvpToolkit
 
-Online demo here https://lb-mvp-toolkit.herokuapp.com/
+[![Build Status](https://travis-ci.org/vlad-ovsyannikov/lb-mvp-toolkit.svg?branch=master)](https://travis-ci.org/vlad-ovsyannikov/lb-mvp-toolkit)
+
+[Try the demo online](https://lb-mvp-toolkit.herokuapp.com/explorer)
